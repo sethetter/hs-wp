@@ -30,7 +30,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a id="logo" class="navbar-brand" href="#">Headshots Bar &amp; Grill</a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
