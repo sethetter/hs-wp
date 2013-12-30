@@ -50,11 +50,10 @@
                 </ul>
               </li>
             </ul>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- ./container -->
+      </div><!-- /.navbar -->
+    </div><!-- /.container -->
+  </div><!-- /.navbar-wrapper -->
 
 
