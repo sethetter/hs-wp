@@ -2,6 +2,10 @@
 Theme Name: Headshots
 Version: 1.0
 */
+@font-face {
+  font-family: 'Big Noodle Titling';
+  src: url('fonts/big_noodle_titling.ttf');
+}
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -11,7 +15,9 @@ body {
   color: #5a5a5a;
 }
 
-
+h1, h2, h3, h4, h5 {
+  font-family: 'Big Noodle Titling';
+}
 
 
 /* CUSTOMIZE THE NAVBAR
@@ -60,6 +66,9 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+}
+.carousel-caption h1 {
+  font-size: 6em;
 }
 
 /* Declare heights because of positioning of img element */
