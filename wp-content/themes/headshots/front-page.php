@@ -64,7 +64,7 @@
     <div class="col-lg-4">
       <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/location.png" alt="Generic placeholder image">
       <h2><span>Location</span></h2>
-      <p>We always have the latest video titles for you and your friends to enjoy. Swing by grab a speciality drink and destroy a few noobs in some FPS action.</p>
+      <p>We are located at 21st and Woodlawn</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
@@ -74,9 +74,9 @@
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/food.png" alt="Generic placeholder image">
-      <h2><span>Food</span></h2>
-      <p>Headshots has a full menu ranging from sizzling appetizers to gourmet hamburgers, the legendary Grandma's Grilled Cheese, and incredibly mouth-watering chicken.</p>
+      <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/aboutus.png" alt="Generic placeholder image">
+      <h2><span>About Us</span></h2>
+      <p>Learn about us</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
   </div><!-- /.row -->
