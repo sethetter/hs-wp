@@ -62,8 +62,8 @@
   <!-- Three columns of text below the carousel -->
   <div class="row">
     <div class="col-lg-4">
-      <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/videogames.png" alt="Generic placeholder image">
-      <h2>Games</h2>
+      <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/location.png" alt="Generic placeholder image">
+      <h2>Location</h2>
       <p>We always have the latest video titles for you and your friends to enjoy. Swing by grab a speciality drink and destroy a few noobs in some FPS action.</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
