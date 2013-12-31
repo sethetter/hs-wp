@@ -30,19 +30,22 @@ body {
 .navbar-wrapper .container {
   padding-left: 0;
   padding-right: 0;
-  overflow: hidden;
 }
 .navbar-wrapper .navbar {
   padding-left: 15px;
   padding-right: 15px;
+  height: 50px;
 }
-
+.navbar .navbar-nav {
+  padding-right: 15px;
+}
 .navbar-wrapper #logo {
   text-indent: -9999px;
   background: url(images/logo-transparent.png) no-repeat top left;
   background-size: cover;
-  width: 200px;
-  height: 60px;
+  margin-top: -10px;
+  width: 308px;
+  height: 90px;
 }
 
 
