@@ -60,22 +60,22 @@
 <div class="container marketing">
 
   <!-- Three columns of text below the carousel -->
-  <div class="row">
+  <div class="row info">
     <div class="col-lg-4">
       <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/location.png" alt="Generic placeholder image">
-      <h2>Location</h2>
+      <h2><span>Location</span></h2>
       <p>We always have the latest video titles for you and your friends to enjoy. Swing by grab a speciality drink and destroy a few noobs in some FPS action.</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
       <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/cocktail.png" alt="Generic placeholder image">
-      <h2>Drinks</h2>
+      <h2><span>Drinks</span></h2>
       <p>In addition to a crazy over stocked bar, Headshots has many custom crafted cocktails. Several theme beverages for the video game enthusiast.</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
       <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/food.png" alt="Generic placeholder image">
-      <h2>Food</h2>
+      <h2><span>Food</span></h2>
       <p>Headshots has a full menu ranging from sizzling appetizers to gourmet hamburgers, the legendary Grandma's Grilled Cheese, and incredibly mouth-watering chicken.</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
