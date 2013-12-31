@@ -68,10 +68,13 @@
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/cocktail.png" alt="Generic placeholder image">
-      <h2><span>Drinks</span></h2>
-      <p>In addition to a crazy over stocked bar, Headshots has many custom crafted cocktails. Several theme beverages for the video game enthusiast.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/clock.png" alt="Generic placeholder image">
+      <h2><span>Hours</span></h2>
+      <p>Tuesday - Saturday 4pm - 2am</p>
+      <p>Sunday 4pm - 12am</p>
+      <p>Monday CLOSED</p>
+      <p>Kitchen open until midnight</p>
+      <p>21 to enter after 10pm</p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
       <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/aboutus.png" alt="Generic placeholder image">
