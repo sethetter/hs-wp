@@ -10,7 +10,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="item active">
-    <img class="img-rounded" src="<?php bloginfo('template_directory'); ?>/images/playin_videogames.jpg" alt="Generic placeholder image"> 
+      <div class="carousel-image games"></div>
       <div class="container">
         <div class="carousel-caption">
           <h1>Games</h1>
@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="item">
-    <img class="img-rounded" src="<?php bloginfo('template_directory'); ?>/images/drinks.jpg" alt="Generic placeholder image"> 
+      <div class="carousel-image drinks"></div>
       <div class="container">
         <div class="carousel-caption">
           <h1>Drinks</h1>
@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="item">
-      <img class="img-rounded" src="<?php bloginfo('template_directory'); ?>/images/grilled_cheese.jpg" alt="Generic placeholder image"> 
+      <div class="carousel-image food"></div>
       <div class="container">
         <div class="carousel-caption">
           <h1>Food</h1>
