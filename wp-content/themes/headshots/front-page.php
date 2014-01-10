@@ -15,7 +15,7 @@
         <div class="carousel-caption">
           <h1>Games</h1>
           <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          <p><a class="btn btn-lg btn-danger" href="#" role="button">Sign up today</a></p>
         </div>
       </div>
     </div>
@@ -24,7 +24,7 @@
         <div class="carousel-caption">
           <h1>Drinks</h1>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          <p><a class="btn btn-lg btn-danger" href="#" role="button">Learn more</a></p>
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@
         <div class="carousel-caption">
           <h1>Food</h1>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          <p><a class="btn btn-lg btn-danger" href="#" role="button">Browse gallery</a></p>
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@
         <div class="carousel-caption">
           <h1>Events</h1>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          <p><a class="btn btn-lg btn-danger" href="#" role="button">Browse gallery</a></p>
         </div>
       </div>
     </div>
@@ -62,25 +62,25 @@
   <!-- Three columns of text below the carousel -->
   <div class="row info">
     <div class="col-lg-4">
+      <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/aboutus.png" alt="Generic placeholder image">
+      <h2><span>About Us</span></h2>
+      <p>We are a fun place for friends to come and play games, have some food and enjoy a few drinks. Come check us out, you won't be disappointed.</p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
       <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/location.png" alt="Generic placeholder image">
       <h2><span>Location</span></h2>
-      <p>We are located at 21st and Woodlawn</p>
+      <p>6140 E 21st Street Ste. 170<br>Wichita, Kansas 67208</p>
+      <p>At the intersection of 21st Street North and Woodlawn</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
       <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/clock.png" alt="Generic placeholder image">
       <h2><span>Hours</span></h2>
-      <p>Tuesday - Saturday 4pm - 2am</p>
-      <p>Sunday 4pm - 12am</p>
-      <p>Monday CLOSED</p>
-      <p>Kitchen open until midnight</p>
-      <p>21 to enter after 10pm</p>
-    </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-      <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/aboutus.png" alt="Generic placeholder image">
-      <h2><span>About Us</span></h2>
-      <p>Learn about us</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <p>Tuesday - Saturday 4 PM - 2 AM</p>
+      <p>Sunday 4 PM - 12 AM, Closed Monday</p>
+      <p>Kitchen stays open until midnight</p>
+      <p>21 to enter after 10 PM</p>
     </div><!-- /.col-lg-4 -->
   </div><!-- /.row -->
 
