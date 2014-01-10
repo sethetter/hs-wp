@@ -106,18 +106,18 @@ a.btn-danger {
   height: 500px;
   background-color: #777;
 }
-.carousel-inner > .item > div.carousel-image.games {
+.carousel-inner > .item > div.carousel-image.drinks {
   background: url(images/drinks.jpg) no-repeat top center;
   background-size: 100%;
   background-position: 50% 50%;
 }
-.carousel-inner > .item > div.carousel-image.drinks {
+.carousel-inner > .item > div.carousel-image.games {
   background: url(images/playin_videogames.jpg) no-repeat top center;
   background-size: 100%;
   background-position: 50% 50%;
 }
 .carousel-inner > .item > div.carousel-image.food {
-  background: url(images/food.png) no-repeat top center;
+  background: url(images/grilled_cheese.jpg) no-repeat top center;
   background-size: 100%;
   background-position: 50% 50%;
 }
