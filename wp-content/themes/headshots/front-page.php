@@ -7,44 +7,40 @@
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
     <div class="item active">
+    <img class="img-rounded" src="<?php bloginfo('template_directory'); ?>/images/playin_videogames.jpg" alt="Generic placeholder image"> 
       <div class="container">
         <div class="carousel-caption">
           <h1>Games</h1>
-          <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          <p>We always have the latest video titles for you and your friends to enjoy. Swing by grab a speciality drink and destroy a few noobs in some FPS action.</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Game Library</a></p>
         </div>
       </div>
     </div>
     <div class="item">
+    <img class="img-rounded" src="<?php bloginfo('template_directory'); ?>/images/drinks.jpg" alt="Generic placeholder image"> 
       <div class="container">
         <div class="carousel-caption">
-          <h1>Drinks</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          <span>
+            <h1>Drinks</h1>
+            <p>In addition to a crazy over stocked bar, Headshots has many custom crafted cocktails. Several theme beverages for the video game enthusiast.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Drinks Menu</a></p>
+          </span>
         </div>
       </div>
     </div>
     <div class="item">
+      <img class="img-rounded" src="<?php bloginfo('template_directory'); ?>/images/grilled_cheese.jpg" alt="Generic placeholder image"> 
       <div class="container">
         <div class="carousel-caption">
           <h1>Food</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          <p>Headshots has a full menu ranging from sizzling appetizers to gourmet hamburgers, the legendary Grandma's Grilled Cheese, and incredibly mouth-watering chicken.</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Food Menu</a></p>
         </div>
       </div>
     </div>
-    <div class="item">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Events</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-        </div>
-      </div>
     </div>
   </div>
   <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
