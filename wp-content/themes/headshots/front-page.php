@@ -95,10 +95,10 @@
       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
     </div>
     <div class="col-md-5">
-      <ul>
-        <li>Event example one</li>
-        <li>Event example two</li>
-        <li>Event example three</li>
+      <ul class="event-list">
+        <li><a href="#">Feb 9 - Super Badass Party</a></li>
+        <li><a href="#">Mar 31 - Yet Another Awesome Event</a></li>
+        <li><a href="#">Jun 18 - This One Is Going To Be Huge</a></li>
       </ul>
     </div>
   </div>
