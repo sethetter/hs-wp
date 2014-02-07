@@ -109,17 +109,17 @@ a.btn-danger {
 .carousel-inner > .item > div.carousel-image.drinks {
   background: url(images/drinks.jpg) no-repeat top center;
   background-size: 100%;
-  background-position: 50% 50%;
+  background-position: 50% 5%;
 }
 .carousel-inner > .item > div.carousel-image.games {
   background: url(images/playin_videogames.jpg) no-repeat top center;
   background-size: 100%;
-  background-position: 50% 50%;
+  background-position: 50% 5%;
 }
 .carousel-inner > .item > div.carousel-image.food {
   background: url(images/grilled_cheese.jpg) no-repeat top center;
   background-size: 100%;
-  background-position: 50% 50%;
+  background-position: 50% 5%;
 }
 .carousel-inner > .item > div.carousel-image {
   position: absolute;
