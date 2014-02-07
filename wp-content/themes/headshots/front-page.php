@@ -55,7 +55,7 @@
   <!-- Three columns of text below the carousel -->
   <div class="row info">
     <div class="col-lg-4">
-      <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/aboutus.png" alt="Generic placeholder image">
+      <img class="img-circle" src="<?php bloginfo('template_directory'); ?>/images/ryan_about_us.png" alt="Generic placeholder image">
       <h2><span>About Us</span></h2>
       <p>We are a fun place for friends to come and play games, have some food and enjoy a few drinks. Come check us out, you won't be disappointed.</p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
