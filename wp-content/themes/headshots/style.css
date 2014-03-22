@@ -186,6 +186,19 @@ a.btn-danger {
   border-bottom: 1px solid #ddd;
 }
 
+/* Featurettes
+------------------------- */
+
+.page.container {
+  margin-top: 120px;
+}
+
+.page .title h1 {
+  font-size: 4em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
