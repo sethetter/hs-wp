@@ -19,6 +19,9 @@ body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
+body.page {
+  background: url('images/black_lozenge.png'); 
+}
 h1, h2, h3, h4, h5 {
   font-family: 'Big Noodle Titling';
 }
@@ -55,6 +58,10 @@ a.btn-danger {
   left: 0;
   right: 0;
   z-index: 20;
+}
+
+body.lage .navbar {
+  background: #444;
 }
 
 /* Flip around the padding for proper display in narrow viewports */

@@ -13,6 +13,9 @@
     </div>
 
     <div class="row content">
+      <div class="col-lg-12">
+        <?php the_content(); ?>
+      </div>
     </div>
 
   <?php endwhile; endif; ?>

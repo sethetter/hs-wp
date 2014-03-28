@@ -17,11 +17,11 @@
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
   <?php wp_head(); ?>
 </head>
-<body>
+<body class="<?php echo is_home() ? '' : 'page' ?>">
   <div class="navbar-wrapper">
     <div class="container">
 
-      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
