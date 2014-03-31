@@ -5,7 +5,6 @@ add_theme_support('post-thumbnails');
 add_action('init', create_food_post_type);
 add_action('init', create_drinks_post_type);
 add_action('init', create_games_post_type);
-add_action('init', create_events_post_type);
 
 function create_food_post_type() {
   register_post_type('food', array(
@@ -43,15 +42,4 @@ function create_games_post_type() {
   register_taxonomy('category', 'games');
 }
 
-function create_events_post_type() {
-  register_post_type('events', array(
-    'label' => 'Events',
-    'public' => true,
-    'menu_position' => 5,
-    'supports' => array('title', 'editor', 'thumbnail', 'custom-fields'),
-    'taxonomies' => array('category')
-  ));
-
-  register_taxonomy('category', 'events');
-}
 ?>
