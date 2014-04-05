@@ -34,14 +34,10 @@
           </div>
           <div class="navbar-collapse collapse pull-right">
             <ul class="nav navbar-nav">
-              <?php
-                if (is_home()) {
-                  $slug = '';
-                  global $post;
-                } else {
-                  $slug = get_post( $post )->post_name;
-                }
-              ?>
+
+              <!-- Fallback title of 'events' to get active class on events page with plugin -->
+              <?php $slug = sanitize_title( get_the_title(), 'events' ); ?>
+
               <li class="<?php echo (is_home() ? 'active' : ''); ?>"><a href="/">Home</a></li>
               <li class="<?php echo ($slug === 'about' ? 'active' : ''); ?>"><a href="/about">About</a></li>
               <li class="<?php echo ($slug === 'food' ? 'active' : ''); ?>"><a href="/food">Food</a></li>
