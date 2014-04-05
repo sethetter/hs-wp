@@ -34,7 +34,14 @@
           </div>
           <div class="navbar-collapse collapse pull-right">
             <ul class="nav navbar-nav">
-              <?php global $post; $slug = get_post( $post )->post_name; ?>
+              <?php
+                if (is_home()) {
+                  $slug = '';
+                  global $post;
+                } else {
+                  $slug = get_post( $post )->post_name;
+                }
+              ?>
               <li class="<?php echo (is_home() ? 'active' : ''); ?>"><a href="/">Home</a></li>
               <li class="<?php echo ($slug === 'about' ? 'active' : ''); ?>"><a href="/about">About</a></li>
               <li class="<?php echo ($slug === 'food' ? 'active' : ''); ?>"><a href="/food">Food</a></li>
