@@ -34,13 +34,13 @@
           </div>
           <div class="navbar-collapse collapse pull-right">
             <ul class="nav navbar-nav">
-              <!-- TODO: conditional 'active' class for current page -->
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/food">Food</a></li>
-              <li><a href="/drinks">Drinks</a></li>
-              <li><a href="/games">Games</a></li>
-              <li><a href="/events">Events</a></li>
+              <?php global $post; $slug = get_post( $post )->post_name; ?>
+              <li class="<?php echo (is_home() ? 'active' : ''); ?>"><a href="/">Home</a></li>
+              <li class="<?php echo ($slug === 'about' ? 'active' : ''); ?>"><a href="/about">About</a></li>
+              <li class="<?php echo ($slug === 'food' ? 'active' : ''); ?>"><a href="/food">Food</a></li>
+              <li class="<?php echo ($slug === 'drinks' ? 'active' : ''); ?>"><a href="/drinks">Drinks</a></li>
+              <li class="<?php echo ($slug === 'games' ? 'active' : ''); ?>"><a href="/games">Games</a></li>
+              <li class="<?php echo ($slug === 'events' ? 'active' : ''); ?>"><a href="/events">Events</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- ./container -->
