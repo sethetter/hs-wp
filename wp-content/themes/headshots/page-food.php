@@ -68,10 +68,6 @@
   } // foreach($categories
   ?>
 
-  <?php $food_query = new WP_Query(array('post_type' => 'food')); ?>
-  <?php if ( $food_query->have_posts() ) : while ( $food_query->have_posts() ) : $food_query->the_post(); ?>
-    <!-- asdf -->
-  <?php endwhile; endif; ?>
 </div>
 <!-- BODY -->
 
