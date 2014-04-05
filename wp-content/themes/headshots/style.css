@@ -21,6 +21,7 @@ body {
 }
 body.page {
   background: url('images/black_lozenge.png'); 
+  color: #eee;
 }
 h1, h2, h3, h4, h5 {
   font-family: 'Big Noodle Titling';
@@ -60,7 +61,7 @@ a.btn-danger {
   z-index: 20;
 }
 
-body.lage .pag.pagee.page.navbar {
+body.page .navbar {
   background: #444;
 }
 
