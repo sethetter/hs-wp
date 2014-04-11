@@ -115,7 +115,7 @@ body.page .navbar {
   background-color: #777;
 }
 .carousel-inner > .item > div.carousel-image.drinks {
-  background: url(images/drinks.jpg) no-repeat top center;
+  background: url(images/drinks_new.jpg) no-repeat top center;
   background-size: cover;
   background-position: 50% 5%;
 }
@@ -125,7 +125,7 @@ body.page .navbar {
   background-position: 50% 5%;
 }
 .carousel-inner > .item > div.carousel-image.food {
-  background: url(images/grilled_cheese.jpg) no-repeat top center;
+  background: url(images/food.jpg) no-repeat top center;
   background-size: cover;
   background-position: 50% 5%;
 }
