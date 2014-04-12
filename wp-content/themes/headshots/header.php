@@ -38,11 +38,11 @@
               <!-- Fallback title of 'events' to get active class on events page with plugin -->
               <?php $slug = sanitize_title( get_the_title(), 'events' ); ?>
 
-              <li class="<?php echo ($slug === 'about' ? 'active' : ''); ?>"><a href="/about">About</a></li>
-              <li class="<?php echo ($slug === 'food' ? 'active' : ''); ?>"><a href="/food">Food</a></li>
-              <li class="<?php echo ($slug === 'drinks' ? 'active' : ''); ?>"><a href="/drinks">Drinks</a></li>
-              <li class="<?php echo ($slug === 'games' ? 'active' : ''); ?>"><a href="/games">Games</a></li>
-              <li class="<?php echo ($slug === 'events' ? 'active' : ''); ?>"><a href="/events">Events</a></li>
+              <li class="<?php echo ($slug === 'food' && !is_home() ? 'active' : ''); ?>"><a href="/food">Food</a></li>
+              <li class="<?php echo ($slug === 'drinks' && !is_home() ? 'active' : ''); ?>"><a href="/drinks">Drinks</a></li>
+              <li class="<?php echo ($slug === 'games' && !is_home() ? 'active' : ''); ?>"><a href="/games">Games</a></li>
+              <li class="<?php echo ($slug === 'events' && !is_home() ? 'active' : ''); ?>"><a href="/events">Events</a></li>
+              <li class="<?php echo ($slug === 'contact' && !is_home() ? 'active' : ''); ?>"><a href="/contact">Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- ./container -->
