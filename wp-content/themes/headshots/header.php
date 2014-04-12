@@ -30,7 +30,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a id="logo" class="navbar-brand" href="#">Headshots Bar &amp; Grill</a>
+            <a id="logo" class="navbar-brand" href="/">Headshots Bar &amp; Grill</a>
           </div>
           <div class="navbar-collapse collapse pull-right">
             <ul class="nav navbar-nav">
@@ -38,7 +38,6 @@
               <!-- Fallback title of 'events' to get active class on events page with plugin -->
               <?php $slug = sanitize_title( get_the_title(), 'events' ); ?>
 
-              <li class="<?php echo (is_home() ? 'active' : ''); ?>"><a href="/">Home</a></li>
               <li class="<?php echo ($slug === 'about' ? 'active' : ''); ?>"><a href="/about">About</a></li>
               <li class="<?php echo ($slug === 'food' ? 'active' : ''); ?>"><a href="/food">Food</a></li>
               <li class="<?php echo ($slug === 'drinks' ? 'active' : ''); ?>"><a href="/drinks">Drinks</a></li>

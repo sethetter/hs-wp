@@ -211,6 +211,28 @@ body.page .navbar {
   padding-bottom: 20px;
 }
 
+/* Item Pages
+------------------------- */
+
+.page h2 {
+  font-size: 2.5em;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #333;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.item .price {
+  float: right;
+  font-weight: bold;
+}
+
+.item .description {
+  color: #aaa;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
