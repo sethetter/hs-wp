@@ -31,6 +31,7 @@
 
   foreach($categories as $category) {
     $args = array(
+      'posts_per_page' => -1,
       'post_type' => 'games',
       'tax_query' => array(
         array(
@@ -46,18 +47,21 @@
 
     <h2><?php echo $category->name ?></h2>
 
-    <div class="row items">
+    <div class="row items <?php echo $category->slug; ?>">
       <?php
       if ($posts) {
         foreach($posts as $post) {
 
           setup_postdata($post); ?>
 
-          <div class="col-lg-6">
-            <h3>
-              <?php the_title();?>
-            </h3>
-            <div class="description"><?php the_content(); ?></div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 ">
+            <p>
+              <?php the_post_thumbnail(array(165, 191), array(
+                'class' => 'img-responsive',
+                'width' => '165',
+                'height' => '191'
+              )); ?>
+            </p>
           </div>
 
           <?php

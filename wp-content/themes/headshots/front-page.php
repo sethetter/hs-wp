@@ -89,9 +89,18 @@
     </div>
     <div class="col-md-5">
       <ul class="event-list">
+      <?php
+        global $post;
+        $all_events = tribe_get_events(array(
+          'eventDisplay'=>'all',
+          'posts_per_page'=>-1
+        ));
+
+        foreach($all_events as $post) {
+          setup_postdata($post);
+      ?>
         <li><a href="#">Feb 9 - Super Badass Party</a></li>
-        <li><a href="#">Mar 31 - Yet Another Awesome Event</a></li>
-        <li><a href="#">Jun 18 - This One Is Going To Be Huge</a></li>
+      <?php } ?>
       </ul>
     </div>
   </div>

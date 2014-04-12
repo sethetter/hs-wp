@@ -31,6 +31,7 @@
 
   foreach($categories as $category) {
     $args = array(
+      'posts_per_page' => -1,
       'post_type' => 'food',
       'tax_query' => array(
         array(
@@ -46,7 +47,7 @@
 
     <h2><?php echo $category->name ?></h2>
 
-    <div class="row items">
+    <div class="row items <?php echo $category->slug; ?>">
       <?php
       if ($posts) {
         foreach($posts as $post) {

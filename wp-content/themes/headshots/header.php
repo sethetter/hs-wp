@@ -12,7 +12,7 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
   <![endif]-->
 
-  <title><?php echo wp_title(); ?></title>
+  <title><?php wp_title(' | '); ?></title>
   <link href="<?php bloginfo('template_directory'); ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
   <?php wp_head(); ?>
@@ -30,7 +30,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a id="logo" class="navbar-brand" href="/">Headshots Bar &amp; Grill</a>
+            <a id="logo" class="img-responsive navbar-brand" href="/">Headshots Bar &amp; Grill</a>
           </div>
           <div class="navbar-collapse collapse pull-right">
             <ul class="nav navbar-nav">
