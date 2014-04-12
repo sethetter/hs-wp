@@ -261,6 +261,14 @@ button.navbar-toggle {
 }
 
 
+/* Contact
+-------------------------------------------------- */
+.wpcf7 select,
+.wpcf7 input[type=text],
+.wpcf7 input[type=email] {
+  margin-bottom: 10px;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
