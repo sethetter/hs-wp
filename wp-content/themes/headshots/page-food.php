@@ -53,9 +53,11 @@
 
           setup_postdata($post); ?>
 
-          <div class="col-lg-6">
-            <h3><?php the_title();?></h3>
-            <div class="price"><?php echo get_post_meta(get_the_ID(), 'price', true); ?></div>
+          <div class="col-lg-6 item">
+            <h3>
+              <?php the_title();?>
+              <span class="price"><?php echo get_post_meta(get_the_ID(), 'price', true); ?></span>
+            </h3>
             <div class="description"><?php the_content(); ?></div>
           </div>
 
