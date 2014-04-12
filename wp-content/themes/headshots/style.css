@@ -248,12 +248,16 @@ button.navbar-toggle {
 #tribe-events-content .tribe-events-calendar td {
   background: #222;
 }
-#tribe-bar-views .tribe-bar-views-inner {
-  color: #333;
-}
+#tribe-bar-views .tribe-bar-views-inner,
+#tribe-bar-collapse-toggle,
+.tribe-events-list-separator-month,
 .label-tribe-bar-date,
 .tribe-events-calendar td.tribe-events-thismonth div[id*="tribe-events-daynum-"] {
   color: #333 !important;
+}
+.tribe-events-event-meta  {
+  background: none !important;
+  border: none !important;
 }
 
 

@@ -99,7 +99,12 @@
         foreach($all_events as $post) {
           setup_postdata($post);
       ?>
-        <li><a href="#">Feb 9 - Super Badass Party</a></li>
+        <li>
+          <a href="#">
+            <?php echo tribe_get_start_date($post->ID, true, 'M j'); ?>
+              - <?php the_title(); ?>
+          </a>
+        </li>
       <?php } ?>
       </ul>
     </div>
