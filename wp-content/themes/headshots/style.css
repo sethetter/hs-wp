@@ -115,8 +115,12 @@ button.navbar-toggle {
 }
 .carousel-caption h1 {
   font-size: 6em;
+  color: #00FF00;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
+.carousel-caption p {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
