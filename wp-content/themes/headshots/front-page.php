@@ -85,7 +85,7 @@
   <div class="row featurette">
     <div class="col-md-7">
       <h2 class="featurette-heading"><span class="text-muted">Upcoming</span> Events</h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <p class="lead">Here is some of our great upcoming events and be sure to look at our calender for future events as well!</p>
     </div>
     <div class="col-md-5">
       <ul class="event-list">
