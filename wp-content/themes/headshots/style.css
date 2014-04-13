@@ -47,6 +47,10 @@ a:hover, a:active {
 a.btn-danger {
   color: #FFF;
 }
+ul.row.items {
+  list-style: none;
+  padding: 0;
+}
 
 
 /* CUSTOMIZE THE NAVBAR
@@ -241,10 +245,24 @@ button.navbar-toggle {
   color: #aaa;
 }
 
+/* Games
+------------------------- */
+p.game-no-image {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+p.game-no-image span {
+  position: absolute;
+  display: block;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+
 /* Events
 -------------------------------------------------- */
-#tribe-events-bar a:link {
-}
 #tribe-events-content .tribe-events-calendar td {
   background: #222;
 }
@@ -258,6 +276,15 @@ button.navbar-toggle {
 .tribe-events-event-meta  {
   background: none !important;
   border: none !important;
+}
+h2.tribe-events-list-event-title a {
+  font-size: 1.4em !important;
+}
+.tribe-events-event-meta {
+  font-size: 1.1em !important;
+}
+.tribe-events-list-event-description {
+  display: none;
 }
 
 

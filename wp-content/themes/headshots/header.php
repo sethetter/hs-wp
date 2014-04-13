@@ -12,7 +12,12 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
   <![endif]-->
 
-  <title><?php wp_title(' | '); ?></title>
+  <?php if (is_home()) { ?>
+    <title><?php echo get_bloginfo('name'); ?></title>
+  <?php } else { ?>
+    <title><?php echo get_bloginfo('name'); ?><?php wp_title('|'); ?></title>
+  <?php } ?>
+
   <link href="<?php bloginfo('template_directory'); ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
   <?php wp_head(); ?>

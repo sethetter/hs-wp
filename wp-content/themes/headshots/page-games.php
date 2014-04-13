@@ -47,28 +47,33 @@
 
     <h2><?php echo $category->name ?></h2>
 
-    <div class="row items <?php echo $category->slug; ?>">
+    <ul class="row items <?php echo $category->slug; ?>">
       <?php
       if ($posts) {
         foreach($posts as $post) {
 
           setup_postdata($post); ?>
 
-          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 ">
-            <p>
-              <?php the_post_thumbnail(array(165, 191), array(
-                'class' => 'img-responsive',
-                'width' => '165',
-                'height' => '191'
-              )); ?>
-            </p>
-          </div>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 ">
+            <?php if (has_post_thumbnail()) { ?>
+              <p>
+                <?php the_post_thumbnail(array(165, 191), array(
+                  'class' => 'img-responsive'
+                )); ?>
+              </p>
+            <? } else { ?>
+              <p class="game-no-image">
+                <img src="<?php bloginfo('template_directory'); ?>/images/<?php echo $category->slug; ?>-case.png" class="img-responsive">
+                <span><?php the_title(); ?></span>
+              </p>
+            <? } ?>
+          </li>
 
           <?php
         } // foreach($posts
       } // if ($posts
     ?>
-    </div>
+    </ul>
   <?php
   } // foreach($categories
   ?>
