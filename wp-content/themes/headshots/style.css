@@ -247,6 +247,10 @@ button.navbar-toggle {
 
 /* Games
 ------------------------- */
+.games .items li {
+  height: 190px;
+  margin-bottom: 15px;
+}
 p.game-no-image {
   position: relative;
   margin: 0;
@@ -306,8 +310,8 @@ h2.tribe-events-list-event-title a {
 #social-media ul li {
   list-style: none;
   display: inline;
-  padding: 0 10px 0 0;
-  margin: 0;
+  margin: 0 10px 0 0;
+  padding: 0;
 }
 
 /* RESPONSIVE CSS
