@@ -296,6 +296,20 @@ h2.tribe-events-list-event-title a {
   margin-bottom: 10px;
 }
 
+/* Footer
+-------------------------------------------------- */
+#social-media ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+#social-media ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 10px 0 0;
+  margin: 0;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

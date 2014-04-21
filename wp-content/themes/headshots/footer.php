@@ -1,11 +1,23 @@
   </div>
   <hr>
-  <div id="socialMedia" class="container">
+  <div id="social-media" class="container">
     <h6>FOLLOW US</h6>
       <ul>
-        <li class=""><a href="https://twitter.com/headshotsbar">Follow Headshots on Twitter</a></li>
-        <li class="k"><a href="https://www.facebook.com/HeadshotsWichita">Be a fan on FaceBook</a></li>
-        <li class=""><a href="http://www.youtube.com/headshotsbar">Check out our video event clips on YouTube</a></li>
+        <li>
+          <a href="https://twitter.com/headshotsbar">
+            <img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" alt="Headshots on Twitter">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/HeadshotsWichita">
+            <img src="<?php bloginfo('template_directory'); ?>/images/facebook.png" alt="Headshots on Facebook">
+          </a>
+        </li>
+        <li>
+          <a href="http://www.youtube.com/headshotsbar">
+            <img src="<?php bloginfo('template_directory'); ?>/images/youtube.png" alt="Headshots on YouTube">
+          </a>
+        </li>
       </ul>
   </div>
   <div id="copyright" class="container">
