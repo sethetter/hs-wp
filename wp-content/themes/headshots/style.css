@@ -245,6 +245,12 @@ button.navbar-toggle {
   color: #aaa;
 }
 
+/* Drinks
+------------------------- */
+.drinks .col-lg-6.col-md-6.col-sm-6.item  {
+  height: 110px;
+}
+
 /* Games
 ------------------------- */
 .games .items li {
@@ -263,7 +269,6 @@ p.game-no-image span {
   width: 100%;
   text-align: center;
 }
-
 
 /* Events
 -------------------------------------------------- */
@@ -373,6 +378,12 @@ h2.tribe-events-list-event-title a {
 
 }
 
+@media (max-width: 768px) {
+  .drinks .col-lg-6.col-md-6.col-sm-6.item  {
+    height: auto;
+  }
+}
+
 @media (min-width: 992px) {
 
   .navbar .navbar-nav {
@@ -389,5 +400,12 @@ h2.tribe-events-list-event-title a {
 
   .featurette-heading {
     margin-top: 120px;
+  }
+}
+
+@media (max-width: 350px) {
+  .navbar-wrapper #logo {
+    width: 200px;
+    height: 45px;
   }
 }

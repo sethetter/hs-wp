@@ -3,7 +3,7 @@
 <!-- HEADER -->
 
 <!-- BODY -->
-<div class="page container">
+<div class="page container drinks">
   <?php if (have_posts()) : while (have_posts()) : the_post();?>
 
     <div class="row title">
